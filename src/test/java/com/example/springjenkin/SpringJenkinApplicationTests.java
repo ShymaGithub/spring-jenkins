@@ -13,10 +13,12 @@ import static org.junit.Assert.assertEquals;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 class SpringJenkinApplicationTests {
+
     public static Logger logger= LoggerFactory.getLogger(SpringJenkinApplicationTests.class);
     @Test
     void contextLoads() {
-        logger.info("Test case is executing");
+        logger.info("Test case is executing1");
+        logger.info("Test case is executing2");
          assertEquals(true,true);
     }
 
